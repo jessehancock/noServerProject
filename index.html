@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app='noServerApp'>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>j</title>
+    <link rel="stylesheet" href="/css/reset.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" type="image/png" href="./images/Pie.png" sizes="16x16">
+
+
+  </head>
+  <body ng-controller='mainCtrl'>
+
+    <header-directive></header-directive>
+
+    <ui-view></ui-view>
+
+
+
+    <div class="bottom colorrr" id='links'>
+
+			<a href="https://github.com/jessehancock">
+				<i class="fa fa-github fa-3x" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/jessehancock">
+				<i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.facebook.com/jesse.c.hancock">
+				<i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.instagram.com/jsshncck/?hl=en">
+				<i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+			</a>
+
+		</div>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src='./js/app.js'></script>
+  <script src='./js/controller.js'></script>
+  <script src='./js/headerDirective.js'></script>
+  <script src='./js/colorpop-directive.js'></script>
+  <!-- <script src='./js/jquery.js'></script> -->
+
+
+		<!--		Triangles-->
+		<script src="./angles/js/TweenLite.min.js"></script>
+		<script src="./angles/js/EasePack.min.js"></script>
+		<script src="./angles/js/rAF.js"></script>
+		<script src="./angles/js/triangles.js"></script>
+  </body>
+</html>
