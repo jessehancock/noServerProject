@@ -198,39 +198,43 @@ underliner{
 	padding-bottom: 60px;
 }
 
-.portfolio-item:nth-child(1){
+.portfolio a{
+	text-decoration: none;
+}
+
+.portfolio-item1{
 	background-image: url('../images/white.jpg');
 	background-repeat: no-repeat;
 }
 
-.portfolio-item:nth-child(2){
-	background-image: url('../images/blue.jpg');
+.portfolio-item2{
+	background-image: url('../images/darktwitter.jpg');
 	background-repeat: no-repeat;
 }
 
-.portfolio-item:nth-child(3){
+.portfolio-item3{
 	background-image: url('../images/orange.jpg');
 	background-repeat: no-repeat;
 }
 
-.portfolio-item:nth-child(4){
+.portfolio-item4{
 	background-image: url('../images/green.jpg');
 	background-repeat: no-repeat;
 }
 
-.portfolio-item:nth-child(5){
+.portfolio-item5{
 	background-image: url('../images/redpink.jpg');
 	background-repeat: no-repeat;
 }
 
-.portfolio-item:nth-child(6){
+.portfolio-item6{
 	background-image: url('../images/black.jpg');
 	background-repeat: no-repeat;
 }
 
 
 
-.portfolio-item{
+.children{
 	min-height: 180px;
 	width: 360px;
 	background-color: red;
@@ -241,13 +245,15 @@ underliner{
 	font-size: 20px;
 	cursor: pointer;
 	opacity: 1;
+
 }
 
 
 
-.portfolio-item h2{
+.children h2{
 	opacity: 0;
-	color: #e0e0e0;
+	color: #fff;
+	text-decoration: none;
 }
 
 
