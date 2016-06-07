@@ -23,11 +23,7 @@
 	 color: maroon;
  }
 
-
-
-
 .head{
-  /*background-color: #616161;*/
 	min-height: 70px;
   height: 9vh;
 	display: flex;
@@ -107,11 +103,7 @@ i{
 
 }
 
-
-
-
-
-/*ABOUT PAGE*/
+/**************************ABOUT PAGE**************************/
 .sub-header{
 	display: flex;
 		align-items: center;
@@ -149,7 +141,7 @@ underliner{
 	height: 250px;
 }
 
-/*SKILLS*/
+/**************************SKILLS**************************/
 
 .skills-container{
 	padding-top: 10px;
@@ -190,7 +182,7 @@ underliner{
 
 
 
-/*porfolio*/
+/**************************porfolio**************************/
 
 .portfolio-container{
 	max-width: 1400px;
@@ -276,7 +268,7 @@ underliner{
 
 
 
-/*EASTER EGG*/
+/**************************EASTER EGG**************************/
 
 .bottom-dino{
 	padding-bottom: 70px;
