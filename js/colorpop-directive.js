@@ -8,10 +8,6 @@ angular.module('noServerApp')
         $(this).toggleClass('maroon');
       });
       })
-
-
-
-
     }
   }
 })
