@@ -6,7 +6,7 @@ angular.module('noServerApp')
       $(document).ready(function(){
         element.on('mouseenter', function(){
           $(element).find('h2').css('opacity', '1');
-        $(element).css('background-color', 'white')  
+          $(element).css('background-image', 'white')  
         })
 
         element.on('mouseleave', function(){
